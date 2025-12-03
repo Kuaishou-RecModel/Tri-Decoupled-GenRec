@@ -348,7 +348,8 @@ Generative recommendation systems are rapidly being deployed in various industri
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | *AIGB* |      [AIGB: Generative Auto-bidding via Conditional Diffusion Modeling](https://arxiv.org/abs/2405.16141)      | KDD'24 |                       / 
 | *GAS* |      [GAS: Generative Auto-bidding with Post-training Search](https://arxiv.org/abs/2412.17018)      | WWW'25 |                       / 
-| *GAVE* |      [Generative Auto-Bidding with Value-Guided Explorations](https://arxiv.org/abs/2504.14587)      | SIGIR'25 |                       / 
+| *GAVE* |      [Generative Auto-Bidding with Value-Guided Explorations](https://arxiv.org/abs/2504.14587)      | SIGIR'25 |                       [![Github](https://img.shields.io/github/stars/Applied-Machine-Learning-Lab/GAVE.svg?style=social&label=Github)](https://github.com/Applied-Machine-Learning-Lab/GAVE)
+
 
 ## Future Direction
 
