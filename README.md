@@ -38,7 +38,7 @@ If you find this survey useful, please cite the following paper:
 - [Applications](#applications)
   - [Cascaded System](#cascaded-system)
   - [Industrial Use Cases](#industrial-use-cases)
-- [Future Direction](#future-direction)
+<!-- - [Future Direction](#future-direction) -->
 - [Acknowledgement](#acknowledgement)
 - [How to Contribute](#how-to-contribute)
 <!-- - [Citation](#citation) -->
@@ -351,7 +351,7 @@ Generative recommendation systems are rapidly being deployed in various industri
 | *GAVE* |      [Generative Auto-Bidding with Value-Guided Explorations](https://arxiv.org/abs/2504.14587)      | SIGIR'25 |                       [![Github](https://img.shields.io/github/stars/Applied-Machine-Learning-Lab/GAVE.svg?style=social&label=Github)](https://github.com/Applied-Machine-Learning-Lab/GAVE)
 
 
-## Future Direction
+<!-- ## Future Direction -->
 
 
 ## Acknowledgement
