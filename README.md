@@ -36,8 +36,9 @@ If you find this survey useful, please cite the following paper:
   - [Architecture Design](#architecture-design)
   - [Optimization Strategies](#optimization-strategies)
 - [Applications](#applications)
+  - [Cascaded System](#cascaded-system)
   - [Industrial Use Cases](#industrial-use-cases)
-  - [Challenges and Future Directions](#challenges-and-future-directions)
+- [Future Direction](#future-direction)
 - [Acknowledgement](#acknowledgement)
 - [How to Contribute](#how-to-contribute)
 <!-- - [Citation](#citation) -->
@@ -113,7 +114,7 @@ Generative recommendation systems benefit significantly from the tokenization of
 | *OneRec* |      [OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment](https://arxiv.org/abs/2502.18965)      | arXiv'25 |                       /
 | *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |                       /
 | *BBQRec* |      [BBQRec: Behavior-Bind Quantization for Multi-Modal Sequential Recommendation](https://arxiv.org/abs/2504.06636)      | arXiv'25 |                       /
-| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                       /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
 | *OneSearch* |      [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236)      | arXiv'25 |                       /
 | *RPG* |      [Generating Long Semantic IDs in Parallel for Recommendation](https://arxiv.org/abs/2506.05781)      | KDD'25 |                   [![Github](https://img.shields.io/github/stars/facebookresearch/RPG_KDD2025.svg?style=social&label=Github)](https://github.com/facebookresearch/RPG_KDD2025)   
 | *URI* |      [Making Transformer Decoders Better Differentiable Indexers](https://openreview.net/pdf?id=bePaRx0otZ)      | ICLR'25 |                /
@@ -141,7 +142,7 @@ Generative recommendation systems benefit significantly from the tokenization of
 
 
 ### Architecture Design 🏠
-Generative recommender systems typically employ encoder-decoder architectures, decoder-only architectures, and diffusion architectures. Compared to traditional methods, these architectures offer higher scalability and computational efficiency.
+Generative recommender systems typically employ *Encoder-Decoder* architectures, *Decoder-Only* architectures, and *Diffusion* architectures. Compared to traditional methods, these architectures offer higher scalability and computational efficiency.
 <!-- Generative recommendation systems often utilize encoder-decoder and decoder-only architectures. These structures enable scalability and better computational efficiency compared to traditional methods. The evolution of architectures from simple MLP models to large transformer-based models is covered. -->
 
 - **Encoder-Decoder:**
@@ -211,25 +212,145 @@ Generative recommender systems typically employ encoder-decoder architectures, d
 
 
 ### Optimization Strategies 📈
-Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discussed *Supervised Learning* and *Preference Alignment*.
+Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discussed *Supervised Learning(NTP,NCE)* and *Preference Alignment(DPO,GRPO)*.
+
+- **NTP Modeling:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *GPT4Rec* |      [GPT4Rec: A Generative Framework for Personalized Recommendation and User Interests Interpretation](https://arxiv.org/abs/2304.03879)      | arXiv'23 |                        /
+| *TIGER* |      [Recommender systems with generative retrieval](https://arxiv.org/abs/2305.05065)      | NeurIPS'23 |                        /
+| *LETTER* |      [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314)      | CIKM'24 |                        [![Github](https://img.shields.io/github/stars/HonghuiBao2000/LETTER.svg?style=social&label=Github)](https://github.com/HonghuiBao2000/LETTER)
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
+| *RecGPT* |      [RecGPT: A Foundation Model for Sequential Recommendation](https://arxiv.org/abs/2506.06270)      | EMNLP'25 |                 [![Github](https://img.shields.io/github/stars/hkuds/recgpt.svg?style=social&label=Github)](https://github.com/hkuds/recgpt)   
+| *LETTER* |      [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314)      | CIKM'24 |                        [![Github](https://img.shields.io/github/stars/HonghuiBao2000/LETTER.svg?style=social&label=Github)](https://github.com/HonghuiBao2000/LETTER)
+| *COBRA* |      [Sparse Meets Dense: Unified Generative Recommendations with Cascaded Sparse-Dense Representations](https://arxiv.org/abs/2503.02453)      | arXiv'25 |                /  
+| *UNGER* |      [UNGER: Generative Recommendation with A Unified Code via Semantic and Collaborative Integration](https://arxiv.org/abs/2502.06269)      | TOIS'25 |                /
+| *REG4Rec* |      [REG4Rec: Reasoning-Enhanced Generative Model for Large-Scale Recommendation Systems](https://arxiv.org/abs/2508.15308)      | arXiv'25 |                /
+| *PLUM* |      [PLUM: Adapting Pre-trained Language Models for Industrial-scale Generative Recommendations](https://arxiv.org/abs/2510.07784)      | arXiv'25 |                /  
+| *LC-Rec* |      [Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation](https://arxiv.org/abs/2311.09049)      | ICDE'24 |                        [![Github](https://img.shields.io/github/stars/RUCAIBox/LC-Rec.svg?style=social&label=Github)](https://github.com/RUCAIBox/LC-Rec)
+| *RecFound* |      [Generative Representational Learning of Foundation Models for Recommendation](https://arxiv.org/abs/2506.11999)      | arXiv'25 |                        [![Github](https://img.shields.io/github/stars/JunkFood436/RecFound.svg?style=social&label=Github)](https://github.com/JunkFood436/RecFound)
+| *EAGER-LLM* |      [EAGER-LLM: Enhancing Large Language Models as Recommenders through Exogenous Behavior-Semantic Integration](https://arxiv.org/abs/2502.14735)      | WWW'25 |                /
+
+
+- **NCE Modeling:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |                        [![Github](https://img.shields.io/github/stars/meta-recsys/generative-recommenders.svg?style=social&label=Github)](https://github.com/meta-recsys/generative-recommenders)         
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
+| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv '25 |                        /                        |
+| *IntSR* |      [IntSR: An Integrated Generative Framework for Search and Recommendation](https://arxiv.org/abs/2509.21179)      | arXiv'25 |                /  
+| *SessionRec* |      [SessionRec: Next Session Prediction Paradigm For Generative Sequential Recommendation](https://arxiv.org/abs/2502.10157)      | arXiv'25 |                /  
+| *MTGR* |      [MTGR: Industrial-Scale Generative Recommendation Framework in Meituan](https://arxiv.org/abs/2505.18654)      | CIKM '25 |                        /                        |
+
+
 
 <!-- We discuss multi-objective optimization strategies that balance user satisfaction, computational efficiency, and business objectives. -->
 
+- **DPO Modeling:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *S-DPO* |      [On Softmax Direct Preference Optimization for Recommendation](https://arxiv.org/abs/2406.09215)      | NeurIPS'24 |                 [![Github](https://img.shields.io/github/stars/chenyuxin1999/S-DPO.svg?style=social&label=Github)](https://github.com/chenyuxin1999/S-DPO) 
+| *RosePO* |      [RosePO: Aligning LLM-based Recommenders with Human Values](https://arxiv.org/abs/2410.12519)      | arXiv'24 |                       /
+| *SPRec* |      [SPRec: Self-Play to Debias LLM-based Recommendation](https://arxiv.org/abs/2412.09243)      | WWW'25 |                        [![Github](https://img.shields.io/github/stars/RegionCh/SPRec.svg?style=social&label=Github)](https://github.com/RegionCh/SPRec)
+| *OneSearch* |      [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236)      | arXiv'25 |                       /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
+| *OneSug* |      [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913)      | arXiv'25 |                       / 
+
+- **GRPO Modeling:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *Rec-R1* |      [Rec-R1: Bridging Generative Large Language Models and User-Centric Recommendation Systems via Reinforcement Learning](https://arxiv.org/abs/2503.24289)      | TMLR'25 |                        [![Github](https://img.shields.io/github/stars/linjc16/Rec-R1.svg?style=social&label=Github)](https://github.com/linjc16/Rec-R1)
+| *VRAgent-R1* |      [VRAgent-R1: Boosting Video Recommendation with MLLM-based Agents via Reinforcement Learning](https://arxiv.org/abs/2507.02626)      | arXiv'25 |                       / 
+| *STREAM-Rec* |      [Slow Thinking for Sequential Recommendation](https://arxiv.org/abs/2504.09627)      | arXiv'25 |                /  
+| *RecLLM-R1* |      [RecLLM-R1: A Two-Stage Training Paradigm with Reinforcement Learning and Chain-of-Thought v1](https://arxiv.org/abs/2506.19235)      | arXiv'25 |                /  
+| *OneRec* |      [OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment](https://arxiv.org/abs/2502.18965)      | arXiv'25 |                       /
+| *OneRec-Think* |      [OneRec-Think: In-Text Reasoning for Generative Recommendation](https://arxiv.org/abs/2510.11639)      | arXiv'25 |                /  
+| *REG4Rec* |      [REG4Rec: Reasoning-Enhanced Generative Model for Large-Scale Recommendation Systems](https://arxiv.org/abs/2508.15308)      | arXiv'25 |                /
+| *RecZero* |      [Think before Recommendation: Autonomous Reasoning-enhanced Recommender](https://arxiv.org/abs/2510.23077)      | NeurIPS'25 |                /
+<!-- | *SynerGen* |      [SynerGen: Contextualized Generative Recommender for Unified Search and Recommendation](https://arxiv.org/abs/2509.21777)      | arXiv'25 |                /   -->
+
+
+
 ## Applications
+
+### Cascaded System
+- **Retrieval:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *TIGER* |      [Recommender systems with generative retrieval](https://arxiv.org/abs/2305.05065)      | NeurIPS'23 |                        /
+| *KuaiFormer* |      [KuaiFormer: Transformer-Based Retrieval at Kuaishou](https://arxiv.org/abs/2411.10057)      | arXiv'24 |                /  
+| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv '25 |                        /    
+| *TBGRecall* |      [TBGRecall: A Generative Retrieval Model for E-commerce Recommendation Scenarios](https://arxiv.org/abs/2508.11977)      | CIKM'25 |                /  
+
+- **Rank:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |                        [![Github](https://img.shields.io/github/stars/meta-recsys/generative-recommenders.svg?style=social&label=Github)](https://github.com/meta-recsys/generative-recommenders)          
+| *KC-GenRe* |      [KC-GenRe: A Knowledge-constrained Generative Re-ranking Method Based on Large Language Models for Knowledge Graph Completion](https://arxiv.org/abs/2403.17532)      | arXiv '24 |                        /       
+| *HLLM* |      [HLLM: Enhancing Sequential Recommendations via Hierarchical Large Language Models for Item and User Modeling](https://arxiv.org/abs/2409.12740)      | arXiv'24 |                        [![Github](https://img.shields.io/github/stars/bytedance/HLLM.svg?style=social&label=Github)](https://github.com/bytedance/HLLM)
+| *IntSR* |      [IntSR: An Integrated Generative Framework for Search and Recommendation](https://arxiv.org/abs/2509.21179)      | arXiv'25 |                /  
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
+| *DFGR* |      [Action is All You Need: Dual-Flow Generative Ranking Network for Recommendation](https://www.arxiv.org/abs/2505.16752)      | arXiv '25 |                        /       
+| *GoalRank* |      [GoalRank: Group-Relative Optimization for a Large Ranking Model](https://arxiv.org/abs/2509.22046)      | arXiv '25 |                        /   
+| *SORT-Gen* |      [A Generative Re-ranking Model for List-level Multi-objective Optimization at Taobao](https://arxiv.org/abs/2505.07197)      | arXiv '25 |                        /   
+
+
+
+- **End to End:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *OneRec* |      [OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment](https://arxiv.org/abs/2502.18965)      | arXiv'25 |                       /
+| *OneSug* |      [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913)      | arXiv'25 |                       / 
+| *ETEGRec* |      [Generative Recommender with End-to-End Learnable Item Tokenization](https://arxiv.org/abs/2409.05546)      | SIGIR'25 |                        [![Github](https://img.shields.io/github/stars/RUCAIBox/ETEGRec.svg?style=social&label=Github)](https://github.com/RUCAIBox/ETEGRec)
+| *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |                       /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
 
 ### Industrial Use Cases
 Generative recommendation systems are rapidly being deployed in various industries:
-- **E-commerce**: Personalized product recommendations.
-- **Streaming Services**: Suggesting movies, music, and content.
-- **Healthcare**: Personalized treatment plans based on historical data.
-- **Education**: Adaptive learning paths for students.
+- **Cold Start:**
 
-### Challenges and Future Directions
-Despite the promising capabilities of generative models, there remain several challenges:
-- **Cold-start Problems**: How to efficiently handle new users or items with limited data.
-- **Scalability**: Managing large datasets with computational efficiency.
-- **Ethical Considerations**: Balancing personalization with privacy concerns.
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *LLMTreeRec* |      [LLMTreeRec: Unleashing the Power of Large Language Models for Cold-Start Recommendations](https://arxiv.org/abs/2404.00702)      | COLING'25 |                        [![Github](https://img.shields.io/github/stars/Applied-Machine-Learning-Lab/LLMTreeRec.svg?style=social&label=Github)](https://github.com/Applied-Machine-Learning-Lab/LLMTreeRec)
+| *LC-Rec* |      [Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation](https://arxiv.org/abs/2311.09049)      | ICDE'24 |                        [![Github](https://img.shields.io/github/stars/RUCAIBox/LC-Rec.svg?style=social&label=Github)](https://github.com/RUCAIBox/LC-Rec)
+| *LLMRank* |      [Large Language Models are Zero-Shot Rankers for Recommender Systems](https://arxiv.org/abs/2305.08845)      | ECIR'24 |                        [![Github](https://img.shields.io/github/stars/RUCAIBox/LLMRank.svg?style=social&label=Github)](https://github.com/RUCAIBox/LLMRank)
 
+- **Cross Domain:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *RecGPT* |      [RecGPT: A Foundation Model for Sequential Recommendation](https://arxiv.org/abs/2506.06270)      | EMNLP'25 |                 [![Github](https://img.shields.io/github/stars/hkuds/recgpt.svg?style=social&label=Github)](https://github.com/hkuds/recgpt)   
+| *GMC* |      [Generative Multi-Target Cross-Domain Recommendation](https://arxiv.org/abs/2507.12871)      | arXiv'25 |                / 
+| *GenCDR* |      [From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization](https://arxiv.org/abs/2511.08006)      | AAAI'26 |                / 
+
+
+- **Search:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *OneSug* |      [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913)      | arXiv'25 |                       / 
+| *OneSearch* |      [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236)      | arXiv'25 |                       /
+| *GRAM* |      [Generative Retrieval and Alignment Model: A New Paradigm for E-commerce Retrieval](https://arxiv.org/abs/2504.01403)      | WWW'25 |                       /
+| *GenSAR* |      [Unified Generative Search and Recommendation](https://arxiv.org/abs/2504.05730)      | arXiv'25 |                       /
+
+
+
+- **Auto-Bidding:**
+
+|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
+| :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| *AIGB* |      [AIGB: Generative Auto-bidding via Conditional Diffusion Modeling](https://arxiv.org/abs/2405.16141)      | KDD'24 |                       / 
+| *GAS* |      [GAS: Generative Auto-bidding with Post-training Search](https://arxiv.org/abs/2412.17018)      | WWW'25 |                       / 
+| *GAVE* |      [Generative Auto-Bidding with Value-Guided Explorations](https://arxiv.org/abs/2504.14587)      | SIGIR'25 |                       / 
+
+## Future Direction
 
 
 ## Acknowledgement
