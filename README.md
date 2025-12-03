@@ -141,7 +141,8 @@ Generative recommendation systems benefit significantly from the tokenization of
 
 
 ### Architecture Design 🏠
-Generative recommendation systems often utilize encoder-decoder and decoder-only architectures. These structures enable scalability and better computational efficiency compared to traditional methods. The evolution of architectures from simple MLP models to large transformer-based models is covered.
+Generative recommender systems typically employ encoder-decoder architectures, decoder-only architectures, and diffusion architectures. Compared to traditional methods, these architectures offer higher scalability and computational efficiency.
+<!-- Generative recommendation systems often utilize encoder-decoder and decoder-only architectures. These structures enable scalability and better computational efficiency compared to traditional methods. The evolution of architectures from simple MLP models to large transformer-based models is covered. -->
 
 - **Encoder-Decoder:**
 
@@ -210,7 +211,9 @@ Generative recommendation systems often utilize encoder-decoder and decoder-only
 
 
 ### Optimization Strategies 📈
-Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We discuss multi-objective optimization strategies that balance user satisfaction, computational efficiency, and business objectives.
+Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discussed *Supervised Learning* and *Preference Alignment*.
+
+<!-- We discuss multi-objective optimization strategies that balance user satisfaction, computational efficiency, and business objectives. -->
 
 ## Applications
 
