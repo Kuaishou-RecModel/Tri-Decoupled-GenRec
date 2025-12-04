@@ -13,19 +13,21 @@ This paper provides an in-depth survey on the latest advancements in generative 
 
 We continuously maintain this paper collection to foster future endeavors.
 
-<!-- ## Citation
+## Citation
 If you find this survey useful, please cite the following paper:
 
 ```bibtex
-@misc{your2025generative,
-  title={Generative Recommendation Systems: A Comprehensive Survey},
-  author={Your Name and Collaborators},
-  year={2025},
-  eprint={your-arxiv-id},
-  archivePrefix={arXiv},
-  primaryClass={cs.IR},
+@article{202512.0203,
+	doi = {10.20944/preprints202512.0203.v1},
+	url = {https://doi.org/10.20944/preprints202512.0203.v1},
+	year = 2025,
+	month = {December},
+	publisher = {Preprints},
+	author = {Xiaopeng Li and Bo Chen and Junda She and Shiteng Cao and You Wang and Qinlin Jia and Haiying He and Zheli Zhou and Zhao Liu and Ji Liu and Zhiyang Zhang and Yu Zhou and Guoping Tang and Yiqing Yang and Chengcheng Guo and Si Dong and Kuo Cai and Pengyue Jia and Maolin Wang and Wanyu Wang and Shiyao Wang and Xinchen Luo and Qigen Hu and Qiang Luo and Xiao Lv and Chaoyi Ma and Ruiming Tang and Kun Gai and Guorui Zhou and Xiangyu Zhao},
+	title = {A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization, Architecture, and Optimization},
+	journal = {Preprints}
 }
-``` -->
+```
 
 
 ## Table of Contents
