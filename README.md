@@ -37,7 +37,7 @@ If you find this survey useful, please cite the following paper:
   - [Optimization Strategies](#optimization-strategies)
 - [Applications](#applications)
   - [Cascaded System](#cascaded-system)
-  - [Industrial Use Cases](#industrial-use-cases)
+  - [Industrial Scenarios](#industrial-scenarios)
 <!-- - [Future Direction](#future-direction) -->
 - [Acknowledgement](#acknowledgement)
 - [How to Contribute](#how-to-contribute)
@@ -45,7 +45,7 @@ If you find this survey useful, please cite the following paper:
 <!-- - [Authors](#authors) -->
 
 ## Introduction
-Generative recommendation systems represent a fundamental shift in how user preferences and item recommendations are modeled. Unlike traditional systems that focus on scoring predefined candidate items, generative models aim to directly generate relevant item identifiers, mitigating the cascading errors common in multi-stage discriminative systems. This survey delves into the evolution, technical foundations, and practical applications of generative recommendation systems.
+Generative recommendation systems mark a fundamental shift from scoring candidates to directly generating item identifiers, eliminating cascading errors in multi-stage pipelines. This survey uniquely frames this evolution through a Tri-Decoupled Perspective—Tokenization (evolving from sparse IDs to semantic identifiers), Architecture (unified, scalable backbones achieving higher MFU), and Optimization (combining supervised next-token prediction and RL-based preference alignment). By systematically disentangling these three foundational components, we reveal how independent innovations converge to drive the generative paradigm, providing researchers and practitioners with both a comprehensive conceptual framework and actionable blueprint for building next-generation recommender systems.
 
 <!-- - Number of publications on generative recommendation indexed in OpenAlex
 ![Statistics Image](figures/statistics_v2.png) -->
@@ -59,7 +59,7 @@ This survey covers a wide range of topics relevant to generative recommendation 
 - The transition from discriminative to generative models.
 - Detailed analysis of tokenization, including sparse ID, text-based, and semantic ID approaches.
 - Architectural frameworks like encoder-decoder, decoder-only, and diffusion-based models.
-- Optimization techniques, such as reinforcement learning for preference alignment.
+- Optimization techniques, such as supervised learning and preference alignment.
 
 ## Key Components
 
@@ -312,7 +312,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |                       /
 | *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
 
-### Industrial Use Cases
+### Industrial Scenarios
 Generative recommendation systems are rapidly being deployed in various industries:
 - **Cold Start:**
 
@@ -355,7 +355,8 @@ Generative recommendation systems are rapidly being deployed in various industri
 
 
 ## Acknowledgement
-This research was conducted as a collaboration between City University of Hong Kong and Kuaishou Technology. The authors thank Kuaishou Technology for providing data support and technical resources, and City University of Hong Kong for theoretical guidance and academic supervision. We also acknowledge the computational resources and experimental environments provided by both institutions.
+This research was conducted as a collaboration between City University of Hong Kong and Kuaishou Technology.
+ <!-- The authors thank Kuaishou Technology for providing data support and technical resources, and City University of Hong Kong for theoretical guidance and academic supervision. We also acknowledge the computational resources and experimental environments provided by both institutions. -->
 
 <!-- [![City University of Hong Kong](figures/City_University_of_Hong_Kong_(2024).svg.png)](https://www.cityu.edu.hk/)
 [![Kuaishou Technology](figures/Kuaishou_logo_(2020).png)](https://www.kuaishou.com/) -->
