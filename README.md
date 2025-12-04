@@ -63,7 +63,7 @@ This survey covers a wide range of topics relevant to generative recommendation 
 
 ## Key Components
 
-### Tokenization 🔍
+### Tokenization
 Generative recommendation systems benefit significantly from the tokenization of items and user interactions. We explore three main tokenization strategies:
 - **Sparse ID-based Tokenization:** Traditional approach but limited in semantics.
 
@@ -141,7 +141,7 @@ Generative recommendation systems benefit significantly from the tokenization of
 
 
 
-### Architecture Design 🏠
+### Architecture Design
 Generative recommender systems typically employ *Encoder-Decoder* architectures, *Decoder-Only* architectures, and *Diffusion* architectures. Compared to traditional methods, these architectures offer higher scalability and computational efficiency.
 <!-- Generative recommendation systems often utilize encoder-decoder and decoder-only architectures. These structures enable scalability and better computational efficiency compared to traditional methods. The evolution of architectures from simple MLP models to large transformer-based models is covered. -->
 
@@ -211,7 +211,7 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 | *DiffGRM* |      [DiffGRM: Diffusion-based Generative Recommendation Model](https://arxiv.org/abs/2510.21805)      | arXiv'25 |                   [![Github](https://img.shields.io/github/stars/liuzhao09/DiffGRM.svg?style=social&label=Github)](https://github.com/liuzhao09/DiffGRM)   
 
 
-### Optimization Strategies 📈
+### Optimization Strategies
 Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discussed *Supervised Learning(NTP,NCE)* and *Preference Alignment(DPO,GRPO)*.
 
 - **NTP Modeling:**
