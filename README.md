@@ -64,7 +64,15 @@ This survey covers a wide range of topics relevant to generative recommendation 
 ## Key Components
 
 ### Tokenization
+<!-- - **The Evolution of Tokenizer Paradigms** -->
+![Tokenizer Evolution](figures/Tokenizer_v4.png)
+
 Generative recommendation systems benefit significantly from the tokenization of items and user interactions. We explore three main tokenization strategies:
+
+
+
+
+
 - **Sparse ID-based Tokenization:** Traditional approach but limited in semantics.
 
 |  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                  |
@@ -142,6 +150,7 @@ Generative recommendation systems benefit significantly from the tokenization of
 
 
 ### Architecture Design
+![Structure Evolution](figures/structure_v2.png)
 Generative recommender systems typically employ *Encoder-Decoder* architectures, *Decoder-Only* architectures, and *Diffusion* architectures. Compared to traditional methods, these architectures offer higher scalability and computational efficiency.
 <!-- Generative recommendation systems often utilize encoder-decoder and decoder-only architectures. These structures enable scalability and better computational efficiency compared to traditional methods. The evolution of architectures from simple MLP models to large transformer-based models is covered. -->
 
@@ -212,6 +221,8 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 
 
 ### Optimization Strategies
+![Optimization Evolution](figures/strategy.png)
+
 Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discussed *Supervised Learning(NTP,NCE)* and *Preference Alignment(DPO,GRPO)*.
 
 - **NTP Modeling:**
@@ -360,13 +371,18 @@ This research was conducted as a collaboration between City University of Hong K
 
 <!-- [![City University of Hong Kong](figures/City_University_of_Hong_Kong_(2024).svg.png)](https://www.cityu.edu.hk/)
 [![Kuaishou Technology](figures/Kuaishou_logo_(2020).png)](https://www.kuaishou.com/) -->
-<table>
+<!-- <table>
   <tr>
     <td align="center"><a href="https://www.cityu.edu.hk/"><img src="figures/City_University_of_Hong_Kong_(2024).svg.png" width="100px" alt="City University of Hong Kong"/><br /><sub><b>City University of Hong Kong</b></sub></a></td>
     <td align="center"><a href="https://www.kuaishou.com/"><img src="figures/Kuaishou_logo_(2020).png" width="100px" alt="Kuaishou Technology"/><br /><sub><b>Kuaishou Technology</b></sub></a></td>
   </tr>
+</table> -->
+<table>
+  <tr>
+    <td align="center"><img src="figures/City_University_of_Hong_Kong_(2024).svg.png" width="100px" alt="City University of Hong Kong"/><br /><sub><b>City University of Hong Kong</b></sub></td>
+    <td align="center"><img src="figures/Kuaishou_logo_(2020).png" width="100px" alt="Kuaishou Technology"/><br /><sub><b>Kuaishou Technology</b></sub></td>
+  </tr>
 </table>
-
 
 ## How to Contribute
 We welcome contributions from the community! If you have suggestions, improvements, or want to add papers to the reading list, feel free to submit an issue on [GitHub Issues](https://github.com/Kuaishou-RecModel/Tri-Decoupled-GenRec/issues).
