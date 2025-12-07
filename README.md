@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is the official repository of the paper ["*A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization,Architecture, and Optimization*"](https://arxiv.org/abs/1706.03762)
+This is the official repository of the paper ["*A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization,Architecture, and Optimization*"](https://www.preprints.org/manuscript/202512.0203)
 
 This paper provides an in-depth survey on the latest advancements in generative recommendation systems, focusing on key components such as tokenization, architecture design, and optimization strategies. It explores the paradigm shift from traditional discriminative models to generative models and their potential to revolutionize recommendation systems across various industries.
 
