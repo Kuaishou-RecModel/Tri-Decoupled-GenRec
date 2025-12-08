@@ -1,6 +1,6 @@
 
 # A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization,Architecture, and Optimization
-![Paper](https://img.shields.io/badge/Paper-Your%20Paper%20Link-red)
+[![Paper](https://img.shields.io/badge/Paper-202512.0203-red)](https://www.preprints.org/manuscript/202512.0203)
 ![Last commit](https://img.shields.io/github/last-commit/Kuaishou-RecModel/Tri-Decoupled-GenRec)
 ![GitHub stars](https://img.shields.io/github/stars/Kuaishou-RecModel/Tri-Decoupled-GenRec?style=social)
 
