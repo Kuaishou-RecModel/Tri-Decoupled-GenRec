@@ -124,7 +124,7 @@ Generative recommendation systems benefit significantly from the tokenization of
 | *OneRec* |      [OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment](https://arxiv.org/abs/2502.18965)      | arXiv'25 |                       /
 | *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |                       /
 | *BBQRec* |      [BBQRec: Behavior-Bind Quantization for Multi-Modal Sequential Recommendation](https://arxiv.org/abs/2504.06636)      | arXiv'25 |                       /
-| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | WSDM'25 |                 /
 | *OneSearch* |      [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236)      | arXiv'25 |                       /
 | *RPG* |      [Generating Long Semantic IDs in Parallel for Recommendation](https://arxiv.org/abs/2506.05781)      | KDD'25 |                   [![Github](https://img.shields.io/github/stars/facebookresearch/RPG_KDD2025.svg?style=social&label=Github)](https://github.com/facebookresearch/RPG_KDD2025)   
 | *URI* |      [Making Transformer Decoders Better Differentiable Indexers](https://openreview.net/pdf?id=bePaRx0otZ)      | ICLR'25 |                /
@@ -167,7 +167,7 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 | *OneRec* |      [OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment](https://arxiv.org/abs/2502.18965)      | arXiv'25 |                       / 
 | *OneSug* |      [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913)      | arXiv'25 |                       / 
 | *OneSearch* |      [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236)      | arXiv'25 |                       /
-| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | WSDM'25 |                 /
 | *EGA-V2* |      [EGA-V2: An End-to-end Generative Framework for Industrial Advertising](https://arxiv.org/abs/2505.17549)      | arXiv'25 |           /  
 
 
@@ -269,7 +269,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | *RosePO* |      [RosePO: Aligning LLM-based Recommenders with Human Values](https://arxiv.org/abs/2410.12519)      | arXiv'24 |                       /
 | *SPRec* |      [SPRec: Self-Play to Debias LLM-based Recommendation](https://arxiv.org/abs/2412.09243)      | WWW'25 |                        [![Github](https://img.shields.io/github/stars/RegionCh/SPRec.svg?style=social&label=Github)](https://github.com/RegionCh/SPRec)
 | *OneSearch* |      [OneSearch: A Preliminary Exploration of the Unified End-to-End Generative Framework for E-commerce Search](https://arxiv.org/abs/2509.03236)      | arXiv'25 |                       /
-| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | WSDM'25 |                 /
 | *OneSug* |      [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913)      | arXiv'25 |                       / 
 
 - **GRPO Modeling:**
@@ -280,7 +280,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | *VRAgent-R1* |      [VRAgent-R1: Boosting Video Recommendation with MLLM-based Agents via Reinforcement Learning](https://arxiv.org/abs/2507.02626)      | arXiv'25 |                       / 
 | *STREAM-Rec* |      [Slow Thinking for Sequential Recommendation](https://arxiv.org/abs/2504.09627)      | arXiv'25 |                /  
 | *RecLLM-R1* |      [RecLLM-R1: A Two-Stage Training Paradigm with Reinforcement Learning and Chain-of-Thought v1](https://arxiv.org/abs/2506.19235)      | arXiv'25 |                /  
-| *OneRec* |      [OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment](https://arxiv.org/abs/2502.18965)      | arXiv'25 |                       /
+| *OneRec* |      [OneRec Technical Report](https://arxiv.org/abs/2506.13695)      | arXiv'25 |                       /
 | *OneRec-Think* |      [OneRec-Think: In-Text Reasoning for Generative Recommendation](https://arxiv.org/abs/2510.11639)      | arXiv'25 |                /  
 | *REG4Rec* |      [REG4Rec: Reasoning-Enhanced Generative Model for Large-Scale Recommendation Systems](https://arxiv.org/abs/2508.15308)      | arXiv'25 |                /
 | *RecZero* |      [Think before Recommendation: Autonomous Reasoning-enhanced Recommender](https://arxiv.org/abs/2510.23077)      | NeurIPS'25 |                /
@@ -323,7 +323,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | *OneSug* |      [OneSug: The Unified End-to-End Generative Framework for E-commerce Query Suggestion](https://arxiv.org/abs/2506.06913)      | arXiv'25 |                       / 
 | *ETEGRec* |      [Generative Recommender with End-to-End Learnable Item Tokenization](https://arxiv.org/abs/2409.05546)      | SIGIR'25 |                        [![Github](https://img.shields.io/github/stars/RUCAIBox/ETEGRec.svg?style=social&label=Github)](https://github.com/RUCAIBox/ETEGRec)
 | *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |                       /
-| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | arXiv'25 |                 /
+| *OneLoc* |      [OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service](https://arxiv.org/abs/2508.14646)      | WSDM'25 |                 /
 
 ### Industrial Scenarios
 Generative recommendation systems are rapidly being deployed in various industries:
