@@ -1,5 +1,5 @@
 
-# A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization,Architecture, and Optimization
+# A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization, Architecture, and Optimization
 [![Paper](https://img.shields.io/badge/Paper-202512.0203-red)](https://www.preprints.org/manuscript/202512.0203)
 ![Last commit](https://img.shields.io/github/last-commit/Kuaishou-RecModel/Tri-Decoupled-GenRec)
 ![GitHub stars](https://img.shields.io/github/stars/Kuaishou-RecModel/Tri-Decoupled-GenRec?style=social)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is the official repository of the paper ["*A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization,Architecture, and Optimization*"](https://www.preprints.org/manuscript/202512.0203)
+This is the official repository of the paper ["*A Survey of Generative Recommendation from a Tri-Decoupled Perspective: Tokenization, Architecture, and Optimization*"](https://www.preprints.org/manuscript/202512.0203)
 
 This paper provides an in-depth survey on the latest advancements in generative recommendation systems, focusing on key components such as tokenization, architecture design, and optimization strategies. It explores the paradigm shift from traditional discriminative models to generative models and their potential to revolutionize recommendation systems across various industries.
 
@@ -52,7 +52,7 @@ Generative recommendation systems mark a fundamental shift from scoring candidat
 <!-- - Number of publications on generative recommendation indexed in OpenAlex
 ![Statistics Image](figures/statistics_v2.png) -->
 
-- Generative VS Discriminative
+- Generative vs. Discriminative
 ![Compared Image](figures/ParadigmCompare_v3.png)
 
 
@@ -77,17 +77,17 @@ Generative recommendation systems benefit significantly from the tokenization of
 
 - **Sparse ID-based Tokenization:** Traditional approach but limited in semantics.
 
-|  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                  |
+|  Method   |                                            Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                  |
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | *GRU4Rec* |      [Session-based Recommendations with Recurrent Neural Networks](https://arxiv.org/abs/1511.06939)      | ICLR'16 |                        [![Github](https://img.shields.io/github/stars/hidasib/GRU4Rec.svg?style=social&label=Github)](https://github.com/hidasib/GRU4Rec)
 | *SASRec* |      [Self-Attentive Sequential Recommendation](https://arxiv.org/abs/1808.09781)      | ICDM'18 |                        [![Github](https://img.shields.io/github/stars/kang205/SASRec.svg?style=social&label=Github)](https://github.com/kang205/SASRec)
 | *BERT4Rec* |      [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/abs/1904.06690)      | CIKM'19 |                        [![Github](https://img.shields.io/github/stars/FeiSun/BERT4Rec.svg?style=social&label=Github)](https://github.com/FeiSun/BERT4Rec)
 | *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |                        [![Github](https://img.shields.io/github/stars/meta-recsys/generative-recommenders.svg?style=social&label=Github)](https://github.com/meta-recsys/generative-recommenders)                        |
 | *LUM* |      [Unlocking Scaling Law in Industrial Recommendation Systems with a Three-step Paradigm based Large User Model](https://arxiv.org/abs/2502.08309)      | arXiv'25 |                        /
-| *MTGR* |      [MTGR: Industrial-Scale Generative Recommendation Framework in Meituan](https://arxiv.org/abs/2505.18654)      | CIKM '25 |                        /                        |
-| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv '25 |                        /                        |
-| *DFGR* |      [Action is All You Need: Dual-Flow Generative Ranking Network for Recommendation](https://www.arxiv.org/abs/2505.16752)      | arXiv '25 |                        /                        |
-| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
+| *MTGR* |      [MTGR: Industrial-Scale Generative Recommendation Framework in Meituan](https://arxiv.org/abs/2505.18654)      | CIKM'25 |                        /                        |
+| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv'25 |                        /                        |
+| *DFGR* |      [Action is All You Need: Dual-Flow Generative Ranking Network for Recommendation](https://www.arxiv.org/abs/2505.16752)      | arXiv'25 |                        /                        |
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv'25 |                        /                        |
 
 - **Text-based Tokenization:** Leverages the power of natural language models, improving semantic understanding.
 
@@ -152,7 +152,7 @@ Generative recommendation systems benefit significantly from the tokenization of
 
 
 ### Architecture Design
-![Structure Evolution](figures/structure_v2.png)
+![Structure Evolution](figures/structure_v3.png)
 Generative recommender systems typically employ *Encoder-Decoder* architectures, *Decoder-Only* architectures, and *Diffusion* architectures. Compared to traditional methods, these architectures offer higher scalability and computational efficiency.
 <!-- Generative recommendation systems often utilize encoder-decoder and decoder-only architectures. These structures enable scalability and better computational efficiency compared to traditional methods. The evolution of architectures from simple MLP models to large transformer-based models is covered. -->
 
@@ -177,7 +177,6 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
 | *GPT4Rec* |      [GPT4Rec: A Generative Framework for Personalized Recommendation and User Interests Interpretation](https://arxiv.org/abs/2304.03879)      | arXiv'23 |                        /
 | *GPTRec* |      [Generative Sequential Recommendation with GPTRec](https://arxiv.org/abs/2306.11114)      | arXiv'23 |                        /
-| *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |                        [![Github](https://img.shields.io/github/stars/meta-recsys/generative-recommenders.svg?style=social&label=Github)](https://github.com/meta-recsys/generative-recommenders)   
 | *HLLM* |      [HLLM: Enhancing Sequential Recommendations via Hierarchical Large Language Models for Item and User Modeling](https://arxiv.org/abs/2409.12740)      | arXiv'24 |                        [![Github](https://img.shields.io/github/stars/bytedance/HLLM.svg?style=social&label=Github)](https://github.com/bytedance/HLLM)                    
 | *GenRec* |      [GenRec: Large Language Model for Generative Recommendation](https://arxiv.org/abs/2307.00457)      | ECIR'24 |                        /
 | *Llama4Rec* |      [Integrating Large Language Models into Recommendation via Mutual Augmentation and Adaptive Aggregation](https://arxiv.org/abs/2401.13870)      | arXiv'24 |    /
@@ -186,7 +185,6 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 | *BIGRec* |      [A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems](https://arxiv.org/abs/2308.08434)      | TORS'25 |                        [![Github](https://img.shields.io/github/stars/SAI990323/BIGRec.svg?style=social&label=Github)](https://github.com/SAI990323/BIGRec)
 | *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |    /
 | *Rec-R1* |      [Rec-R1: Bridging Generative Large Language Models and User-Centric Recommendation Systems via Reinforcement Learning](https://arxiv.org/abs/2503.24289)      | TMLR'25 |                        [![Github](https://img.shields.io/github/stars/linjc16/Rec-R1.svg?style=social&label=Github)](https://github.com/linjc16/Rec-R1)
-| *RecFound* |      [Generative Representational Learning of Foundation Models for Recommendation](https://arxiv.org/abs/2506.11999)      | arXiv'25 |                        [![Github](https://img.shields.io/github/stars/JunkFood436/RecFound.svg?style=social&label=Github)](https://github.com/JunkFood436/RecFound)
 | *SPRec* |      [SPRec: Self-Play to Debias LLM-based Recommendation](https://arxiv.org/abs/2412.09243)      | WWW'25 |                        [![Github](https://img.shields.io/github/stars/RegionCh/SPRec.svg?style=social&label=Github)](https://github.com/RegionCh/SPRec)
 | *TALKPLAY* |      [TALKPLAY: Multimodal Music Recommendation with Large Language Models](https://arxiv.org/abs/2502.13713)      | arXiv'25 |                /  
 | *LUM* |      [Unlocking Scaling Law in Industrial Recommendation Systems with a Three-step Paradigm based Large User Model](https://arxiv.org/abs/2502.08309)      | arXiv'25 |                        /
@@ -198,7 +196,6 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 | *RecGPT* |      [RecGPT: A Foundation Model for Sequential Recommendation](https://arxiv.org/abs/2506.06270)      | EMNLP'25 |                 [![Github](https://img.shields.io/github/stars/hkuds/recgpt.svg?style=social&label=Github)](https://github.com/hkuds/recgpt)   
 | *RecFound* |      [Generative Representational Learning of Foundation Models for Recommendation](https://arxiv.org/abs/2506.11999)      | arXiv'25 |                        [![Github](https://img.shields.io/github/stars/JunkFood436/RecFound.svg?style=social&label=Github)](https://github.com/JunkFood436/RecFound)
 | *GNPR-SID* |      [Generative Next POI Recommendation with Semantic ID](https://arxiv.org/abs/2506.01375)      | KDD'25 |                 [![Github](https://img.shields.io/github/stars/wds1996/GNPR-SID.svg?style=social&label=Github)](https://github.com/wds1996/GNPR-SID)     
-| *OneRec-V2* |      [OneRec-V2 Technical Report](https://arxiv.org/abs/2508.20900)      | arXiv'25 |                       /
 | *OneRec-Think* |      [OneRec-Think: In-Text Reasoning for Generative Recommendation](https://arxiv.org/abs/2510.11639)      | arXiv'25 |                /  
 | *TBGRecall* |      [TBGRecall: A Generative Retrieval Model for E-commerce Recommendation Scenarios](https://arxiv.org/abs/2508.11977)      | CIKM'25 |                /  
 | *Spacetime-GR* |      [Spacetime-GR: A Spacetime-Aware Generative Model for Large Scale Online POI Recommendation](https://arxiv.org/abs/2508.16126)      | arXiv'25 |                /  
@@ -225,7 +222,7 @@ Generative recommender systems typically employ *Encoder-Decoder* architectures,
 ### Optimization Strategies
 ![Optimization Evolution](figures/strategy.png)
 
-Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discussed *Supervised Learning(NTP,NCE)* and *Preference Alignment(DPO,GRPO)*.
+Optimization plays a crucial role in enhancing the effectiveness of generative recommendation systems. We mainly discuss *Supervised Learning(NTP, NCE)* and *Preference Alignment(DPO, GRPO)*.
 
 - **NTP Modeling:**
 
@@ -236,7 +233,6 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | *LETTER* |      [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314)      | CIKM'24 |                        [![Github](https://img.shields.io/github/stars/HonghuiBao2000/LETTER.svg?style=social&label=Github)](https://github.com/HonghuiBao2000/LETTER)
 | *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
 | *RecGPT* |      [RecGPT: A Foundation Model for Sequential Recommendation](https://arxiv.org/abs/2506.06270)      | EMNLP'25 |                 [![Github](https://img.shields.io/github/stars/hkuds/recgpt.svg?style=social&label=Github)](https://github.com/hkuds/recgpt)   
-| *LETTER* |      [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314)      | CIKM'24 |                        [![Github](https://img.shields.io/github/stars/HonghuiBao2000/LETTER.svg?style=social&label=Github)](https://github.com/HonghuiBao2000/LETTER)
 | *COBRA* |      [Sparse Meets Dense: Unified Generative Recommendations with Cascaded Sparse-Dense Representations](https://arxiv.org/abs/2503.02453)      | arXiv'25 |                /  
 | *UNGER* |      [UNGER: Generative Recommendation with A Unified Code via Semantic and Collaborative Integration](https://arxiv.org/abs/2502.06269)      | TOIS'25 |                /
 | *REG4Rec* |      [REG4Rec: Reasoning-Enhanced Generative Model for Large-Scale Recommendation Systems](https://arxiv.org/abs/2508.15308)      | arXiv'25 |                /
@@ -315,7 +311,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 
 
 
-- **End to End:**
+- **End-to-End:**
 
 |  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
