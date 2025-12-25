@@ -231,7 +231,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | *GPT4Rec* |      [GPT4Rec: A Generative Framework for Personalized Recommendation and User Interests Interpretation](https://arxiv.org/abs/2304.03879)      | arXiv'23 |                        /
 | *TIGER* |      [Recommender systems with generative retrieval](https://arxiv.org/abs/2305.05065)      | NeurIPS'23 |                        /
 | *LETTER* |      [Learnable Item Tokenization for Generative Recommendation](https://arxiv.org/abs/2405.07314)      | CIKM'24 |                        [![Github](https://img.shields.io/github/stars/HonghuiBao2000/LETTER.svg?style=social&label=Github)](https://github.com/HonghuiBao2000/LETTER)
-| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv'25 |                        /                        |
 | *RecGPT* |      [RecGPT: A Foundation Model for Sequential Recommendation](https://arxiv.org/abs/2506.06270)      | EMNLP'25 |                 [![Github](https://img.shields.io/github/stars/hkuds/recgpt.svg?style=social&label=Github)](https://github.com/hkuds/recgpt)   
 | *COBRA* |      [Sparse Meets Dense: Unified Generative Recommendations with Cascaded Sparse-Dense Representations](https://arxiv.org/abs/2503.02453)      | arXiv'25 |                /  
 | *UNGER* |      [UNGER: Generative Recommendation with A Unified Code via Semantic and Collaborative Integration](https://arxiv.org/abs/2502.06269)      | TOIS'25 |                /
@@ -247,11 +247,11 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 |  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |                        [![Github](https://img.shields.io/github/stars/meta-recsys/generative-recommenders.svg?style=social&label=Github)](https://github.com/meta-recsys/generative-recommenders)         
-| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
-| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv '25 |                        /                        |
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv'25 |                        /                        |
+| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv'25 |                        /                        |
 | *IntSR* |      [IntSR: An Integrated Generative Framework for Search and Recommendation](https://arxiv.org/abs/2509.21179)      | arXiv'25 |                /  
 | *SessionRec* |      [SessionRec: Next Session Prediction Paradigm For Generative Sequential Recommendation](https://arxiv.org/abs/2502.10157)      | arXiv'25 |                /  
-| *MTGR* |      [MTGR: Industrial-Scale Generative Recommendation Framework in Meituan](https://arxiv.org/abs/2505.18654)      | CIKM '25 |                        /                        |
+| *MTGR* |      [MTGR: Industrial-Scale Generative Recommendation Framework in Meituan](https://arxiv.org/abs/2505.18654)      | CIKM'25 |                        /                        |
 
 
 
@@ -293,7 +293,7 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | *TIGER* |      [Recommender systems with generative retrieval](https://arxiv.org/abs/2305.05065)      | NeurIPS'23 |                        /
 | *KuaiFormer* |      [KuaiFormer: Transformer-Based Retrieval at Kuaishou](https://arxiv.org/abs/2411.10057)      | arXiv'24 |                /  
-| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv '25 |                        /    
+| *PinRec* |      [PinRec: Outcome-Conditioned, Multi-Token Generative Retrieval for Industry-Scale Recommendation Systems](https://arxiv.org/abs/2504.10507)      | arXiv'25 |                        /    
 | *TBGRecall* |      [TBGRecall: A Generative Retrieval Model for E-commerce Recommendation Scenarios](https://arxiv.org/abs/2508.11977)      | CIKM'25 |                /  
 
 - **Rank:**
@@ -301,13 +301,13 @@ Optimization plays a crucial role in enhancing the effectiveness of generative r
 |  Method   |                                             Paper Title                                              |   Published At    |                                                                                                                                  Code                                                                                                                                
 | :-------: | :--------------------------------------------------------------------------------------------------: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | *HSTU* |      [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152)      | ICML'24 |                        [![Github](https://img.shields.io/github/stars/meta-recsys/generative-recommenders.svg?style=social&label=Github)](https://github.com/meta-recsys/generative-recommenders)          
-| *KC-GenRe* |      [KC-GenRe: A Knowledge-constrained Generative Re-ranking Method Based on Large Language Models for Knowledge Graph Completion](https://arxiv.org/abs/2403.17532)      | arXiv '24 |                        /       
+| *KC-GenRe* |      [KC-GenRe: A Knowledge-constrained Generative Re-ranking Method Based on Large Language Models for Knowledge Graph Completion](https://arxiv.org/abs/2403.17532)      | arXiv'24 |                        /       
 | *HLLM* |      [HLLM: Enhancing Sequential Recommendations via Hierarchical Large Language Models for Item and User Modeling](https://arxiv.org/abs/2409.12740)      | arXiv'24 |                        [![Github](https://img.shields.io/github/stars/bytedance/HLLM.svg?style=social&label=Github)](https://github.com/bytedance/HLLM)
 | *IntSR* |      [IntSR: An Integrated Generative Framework for Search and Recommendation](https://arxiv.org/abs/2509.21179)      | arXiv'25 |                /  
-| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv '25 |                        /                        |
-| *DFGR* |      [Action is All You Need: Dual-Flow Generative Ranking Network for Recommendation](https://www.arxiv.org/abs/2505.16752)      | arXiv '25 |                        /       
-| *GoalRank* |      [GoalRank: Group-Relative Optimization for a Large Ranking Model](https://arxiv.org/abs/2509.22046)      | arXiv '25 |                        /   
-| *SORT-Gen* |      [A Generative Re-ranking Model for List-level Multi-objective Optimization at Taobao](https://arxiv.org/abs/2505.07197)      | arXiv '25 |                        /   
+| *GenRank* |      [Towards Large-scale Generative Ranking](https://arxiv.org/abs/2505.04180)      | arXiv'25 |                        /                        |
+| *DFGR* |      [Action is All You Need: Dual-Flow Generative Ranking Network for Recommendation](https://www.arxiv.org/abs/2505.16752)      | arXiv'25 |                        /       
+| *GoalRank* |      [GoalRank: Group-Relative Optimization for a Large Ranking Model](https://arxiv.org/abs/2509.22046)      | arXiv'25 |                        /   
+| *SORT-Gen* |      [A Generative Re-ranking Model for List-level Multi-objective Optimization at Taobao](https://arxiv.org/abs/2505.07197)      | arXiv'25 |                        /   
 
 
 
